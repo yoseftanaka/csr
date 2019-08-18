@@ -1,0 +1,86 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.landingPage{
+    height: 100vh;
+    background-image: url("../image/mock_background.jpg");
+    background-size: cover;
+    filter: brightness(90%);
+}
+
+.landingPage__navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color: red;
+}
+.navbar__logo > img{
+    width: 100px;
+}
+
+.navbar__logo--padding{
+    padding: 20px;
+}
+
+.navbar__option{
+    display: flex;
+    justify-content: space-around;
+}
+
+.navbar__option--textColor{
+    color: white;
+}
+
+.landingPage__centerItem{
+    height: 89vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__option--padding{
+    padding: 20px;
+}
+
+.container__button{
+    text-align: center;
+    padding: 20px;
+}
+
+.container__button--mod{
+    color: white;
+    padding:10px 30px;
+    background-color:#86bc42;
+    border-radius: 50px;
+    border:none;
+    box-shadow: 10px 10px 2 0px black;
+}
+
+.welcomePage{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+}
+
+.welcomePage__pageContainer{
+    width: 80%;
+    text-align: center;
+}
+
+.pageContainer__header{
+    padding: 20px 0;
+}
+
+.pageContainer__deck{
+    display: flex;
+}
+
+.deck__card{
+    width: 25%;
+    padding: 10px;
+}
+
+.card__image>img{
+    width: 100px;
+    border-radius: 100%;
+}
