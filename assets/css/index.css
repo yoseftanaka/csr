@@ -9,25 +9,33 @@ body{
     filter: brightness(90%);
 }
 
-.landingPage__navbar{
-    display: flex;
-    justify-content: space-between;
-    background-color: red;
-}
-.navbar__logo > img{
+.navbar-brand>img{
     width: 100px;
 }
 
-.navbar__logo--padding{
+.nav-link{
+    color: white !important;
+}
+
+.landingPage__navbar{
+    display: flex;
+    justify-content: space-between;
+    background-color:inherit;
+}
+.landingPage__navbar__logo > img{
+    width: 100px;
+}
+
+.landingPage__navbar__logo--padding{
     padding: 20px;
 }
 
-.navbar__option{
+.landingPage__navbar__option{
     display: flex;
     justify-content: space-around;
 }
 
-.navbar__option--textColor{
+.landingPage__navbar__option--textColor{
     color: white;
 }
 
@@ -42,12 +50,22 @@ body{
     padding: 20px;
 }
 
-.container__button{
+.landingPage__centerItem__container{
+    position: absolute !important;
+    text-align: center;
+}
+
+.landingPage__centerItem__container__button{
     text-align: center;
     padding: 20px;
 }
 
-.container__button--mod{
+.landingPage__centerItem__container__logo>img{
+    width: 90%;
+    max-width: 533;
+}
+
+.landingPage__centerItem__container__button--mod{
     color: white;
     padding:10px 30px;
     background-color:#86bc42;
@@ -67,20 +85,25 @@ body{
     text-align: center;
 }
 
-.pageContainer__header{
+.welcomePage__pageContainer__header{
     padding: 20px 0;
 }
 
-.pageContainer__deck{
+.welcomePage__pageContainer__deck{
     display: flex;
 }
 
-.deck__card{
-    width: 25%;
-    padding: 10px;
+.welcomePage__pageContainer__deck__card{
+    padding: 20px;
 }
 
-.card__image>img{
+.welcomePage__pageContainer__deck__card__image>img{
     width: 100px;
     border-radius: 100%;
+}
+
+@media only screen and (max-width: 740px){
+    .landingPage__navbar{
+        background-color: red;
+    }
 }
