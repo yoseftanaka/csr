@@ -95,6 +95,12 @@ body{
 
 .welcomePage__pageContainer__deck__card{
     padding: 20px;
+    transition : transform 2s, box-shadow 2s;
+}
+
+.welcomePage__pageContainer__deck__card:hover{
+    transform: scale(1.05);
+    box-shadow: 2px 2px 2px black;
 }
 
 .welcomePage__pageContainer__deck__card__image>img{
