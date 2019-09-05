@@ -127,5 +127,38 @@ body{
 }
 
 .contact__info {
+
+}
+.aboutPage{
+    height: 100vh;
+}
+
+.aboutPage__header{
+    text-align: center;
+    padding:20px 0;
+}
+
+.aboutPage__content__logo{
+    text-align: center;
     
+}
+
+.aboutPage__content__logo>img{
+    width: 100%;
+    max-width: 533px;
+    margin-top: 100px;
+}
+
+.aboutPage__content{
+    margin-top: 50px;
+    padding: 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    .aboutPage__content__logo>img{
+        margin-top: 0;
+    }
+    .aboutPage__content{
+        margin-top: 0;
+    }
 }
